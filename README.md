@@ -1,1 +1,1 @@
-# beecrowd-SQL
+# Beecrowd SQL
