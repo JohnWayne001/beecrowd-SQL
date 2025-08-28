@@ -21,7 +21,7 @@ FROM
 WHERE 
     city = 'Porto Alegre';
 ```
-
+--------------------------------------------------------------
 ### Atividade 2607
 Problema: Todos os meses a empresa pede um relatório das cidades que os fornecedores estão cadastrados. Dessa vez não vai ser diferente, faça uma consulta no Banco de Dados que retorne todas as cidades dos fornecedores, mas em ordem alfabética.
 
@@ -38,7 +38,7 @@ FROM
 providers AS a
 ORDER BY a.city ASC;
 ```
-
+--------------------------------------------------------------
 ### Atividade 2608
 Problema: O setor financeiro da nossa empresa, está querendo saber os menores e maiores valores dos produtos, que vendemos.
 
@@ -55,7 +55,7 @@ min(price) AS price
 FROM
 products;
 ```
-
+--------------------------------------------------------------
 ### Atividade 2615
 Problema: A locadora tem objetivos de criar várias franquias espalhadas pelo Brasil. Para isso queremos saber em quais cidades nossos clientes moram.
 
@@ -73,7 +73,7 @@ customers AS a
 ORDER BY
 street;
 ```
-
+--------------------------------------------------------------
 ### Atividade 2746
 Problema: Os vírus estão evoluindo, porém uma nova pesquisa tem provado que trocando algumas proteínas a vacina se torna imbatível. A proteína H1 (Hemaglutinina) quando é substituída pela proteína X (Xenomorphina) tem efeitos interessantes no combate de quase todas as doenças virais. Alguns conspiracionistas dizem que após a descoberta dessa vacina algumas criaturas de 3 metros de altura foram vistas perto do laboratório, mas claro, isso é mentira.
 
@@ -106,6 +106,7 @@ FROM
 WHERE
   price < 10 OR price > 100;
 ```
+--------------------------------------------------------------
 ### Atividade 2613
 Problema: Antigamente a locadora fez um evento em que vários filmes estavam em promoção, queremos saber que filmes eram esses.
 
@@ -148,6 +149,7 @@ SELECT
 FROM
   products AS a;
 ```
+--------------------------------------------------------------
 ### Atividade 2606
 Problema: Quando os dados foram migrados de Banco de Dados, houve um pequeno mal-entendido por parte do antigo DBA.
 
